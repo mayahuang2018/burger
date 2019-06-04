@@ -6,11 +6,11 @@ USE burgers_db;
 
 CREATE TABLE burgers (
 
-    id INT NOT NULL AUTO_INCREMENT,
+    `id` INT NOT NULL AUTO_INCREMENT PRIMARY,
 
     burger_name VARCHAR(100) NOT NULL,
 
-    deboured BIT NULL DEFAULT 0
+    devoured BOOLEAN NOT NULL, 
 
     PRIMARY KEY (id)
 );
