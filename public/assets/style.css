@@ -1,0 +1,17 @@
+body{
+    background:
+    url(./001.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size:cover;
+
+    font-family: 'Baloo Da', cursive;
+/* font-family: 'Lobster', cursive; */
+   }
+
+input{
+  color:#26A69A;
+  padding:5px;
+  column-width: 50%
+}
