@@ -1,11 +1,8 @@
 //Import (require) `connection.js` into `orm.js`
 var connection = require("../config/connection.js");
 
-
+  
 // In the `orm.js` file, create the methods that will execute the necessary MySQL commands in the controllers.
-// These are the methods you will need to use in order to retrieve and store data in your database.
-
-
 // The above helper function loops through and creates an array of question marks - ["?", "?", "?"] - and turns it into a string.
 // ["?", "?", "?"].toString() => "?,?,?";
 function printQuestionMarks(num) {
@@ -22,7 +19,6 @@ function printQuestionMarks(num) {
   function objToSql(ob) {
     var arr = [];
   
-    // loop through the keys and push the key/value as a string int arr
     for (var key in ob) {
       var value = ob[key];
       // check to skip hidden properties
@@ -35,10 +31,9 @@ function printQuestionMarks(num) {
       }
     }
   
-    // translate array of strings to a single comma-separated string
     return arr.toString();
   }
-  
+
   // Object for all our SQL statement functions.
   var orm = {
       
