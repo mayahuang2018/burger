@@ -1,7 +1,5 @@
 # burger
 
-## Overview
-
 This is a burger logger with **MySQL**, **Node**, **Express**, **Handlebars** and a homemade **ORM**(!). 
 
 It is my **Node Express Handlebars** Assignment in Gatech Coding bootcamp. I followed the MVC design pattern offered by Coding Bootcamp, and designed the wedpage on my own.
